@@ -4,6 +4,7 @@ import getopt
 import time
 import os
 import sys
+from os import system
 import datetime
 from random import randint
 
@@ -40,8 +41,7 @@ time.sleep(2.2)
 def usage():
     print("+\033[1;37m Metodo de uso\033[1;31m +")
     print("")
-    print("\033[1;33m  python dragon.py -b \033[1;31m >>>\033[1;33m Opciones de uso")
-    print("\033[1;33m  python dragon.py -h \033[1;31m >>>\033[1;33m Mensaje de ayuda")
+    print("\033[1;33m  python dragon.py -b [formatodebin] -u [cantidad] -d -c")
     print("")
     print("+\033[;32m Opciones de uso\033[1;31m +")
     print("")
@@ -55,13 +55,13 @@ def usage():
     print("\033[1;37m EL USO DE ESTA HERRAMIENTA\033[0m")
     print("\033[1;37m ES RESPONSABILIDAD DE QUIEN LA UTILICE")
     print("")
-    print("\033[1;36mpython dragon.py -b 123456xxxxxxxxxx -u 30 -d -c ")
+    print("\033[1;36mpython dragon.py -b 123456xxxxxxxxxx -u 20 -d -c ")
     print("")
 #Arg parser
 def parseOptions(argv):
     bin_format = ""
     saveopt = True
-    limit = 30
+    limit = ""
     ccv = True
     date = True
     check = True
@@ -76,12 +76,12 @@ def parseOptions(argv):
                 bin_format = arg
             elif opt in ("-g", "-guardar"):
                 saveopt = True
-            elif opt in ("u", "-cantidad"):
+            elif opt in ("-u", "-cantidad"):
                 limit = arg
             elif opt in ("-c", "-ccv"):
                 ccv = True
             elif opt in ("-d", "-date"):
-                date = True
+                 date = True
 
         return(bin_format, saveopt, limit, ccv, date)
 
@@ -123,7 +123,7 @@ def ccgen(bin_format):
             else:
                 print("\nCaracter no valido en el formato: {}\n".format(bin_format))
                 print("El formato del bin es: xxxxxxxxxxxxxxxx de 16 digitos\n")
-                print("Ayuda: python2 Live-Generator.py -h \n")
+                print("Ayuda: python dragon.py -h \n")
                 sys.exit()
 
         #Generate checksum (last digit) -- IMPLICIT CHECK
@@ -141,7 +141,7 @@ def ccgen(bin_format):
         print("\033[1;32m")
         print("\nERROR: Inserta un bin valido\n")
         print("SOLUCION: El formato del bin es: xxxxxxxxxxxxxxxx de 16 digitos\n")
-        print("AYUDA: python2 Live-Generator.py -h\n")
+        print("AYUDA: python dragon.py -h\n")
         sys.exit()
 
     return(out_cc)
@@ -149,8 +149,8 @@ def ccgen(bin_format):
 #Write on a file that takes a list for the argument
 def save(generated):
     now = datetime.datetime.now()
-    file_name = "cc-gen_output_{0}.txt".format(str(now.day) + str(now.hour) + str(now.minute) + str(now.second))
-    f = open(file_name, 'w')
+    file_name = "bin-gen_Dragon-X{0}.txt".format(str(now.day) + str(now.hour) + str(now.minute) + str(now.second))
+    f = open(file_name, 'a')
     for line in generated:
         f.write(line + "\n")
     f.close
@@ -182,6 +182,7 @@ def dategen():
 def main(argv):
     bin_list = []
     #get arg data
+    print(" TARGET         CVV  MM/AA")
     (bin_format, saveopt, limit, ccv, date) = parseOptions(argv)
     if bin_format is not "":
         for i in range(int(limit)):
@@ -201,8 +202,9 @@ def main(argv):
         if not bin_list:
             print("\nERROR: el bin que insertaste no es valido\n")
         else:
-            print("\n Todas las tarjetas fueron validadas con exito ")
-            print("\n Pueden ser usadas satisfactoriamente")
+            print("\n\033[1;31m~\033[1;34mHa usado la Script correctamente")
+            system("sleep 1")
+            print("\033[1;31m~\033[1;34mGracias por !! \033[1;33mUtilizarla ;)")
 
         if saveopt:
             save(bin_list)
