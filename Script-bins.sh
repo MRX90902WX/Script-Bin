@@ -47,7 +47,7 @@ echo ""
 echo "***"
 echo -e "\e[1;33mGenerateBIN\e[0m \e[1;32m= Esta Script de bin sirve para comprar Youtube Premiun\e[0m"
 echo -e "\e[1;33mDragon-X\e[0m \e[1;32m= Esta Script generara bins al azar para pasar prueba 1mes\e[0m"
-echo -e "\e[1;33mNamsoG\e[0m \e[1;32m= Esta Script funciona igual que la pagina namsoGen\e[0m"
+echo -e "\e[1;33mNamsoG\e[0m \e[1;32m= Esta Script funciona igual que la pagina NamsoGen\e[0m"
 echo ""
 while :
 do
