@@ -78,6 +78,4 @@ def main():
 
 main()
 
-print("\n\033[1;31m~\033[1;34mHa usado la Script correctamente")
-system("sleep 1")
-print("\033[1;31m~\033[1;34mGracias por !! \033[1;33mUtilizarla ;)")
+print("\n\033[1;32mTodas las tarjetas fueron validadas con exito ")
