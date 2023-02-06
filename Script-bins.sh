@@ -80,7 +80,7 @@ exit
 echo ""
 echo -e "\e[1;31m~\e[0m\e[1;34mHa salido de la Script correctamente\e[0m"
 sleep 1
-echo -e "\e[1;31m~\e[0m\e[1;34mGracias por !!\e[0m \e[1;33mUtilizarla ;)\e[0m"
+echo -e "\e[1;31m~\e[0m\e[1;34mGracias !! por\e[0m \e[1;33mUtilizarla ;)\e[0m"
 exit
 ;;
 esac 
