@@ -28,5 +28,5 @@ Créditos
 
 - Scorpio28-Oficial
 
-- GHOST
+- G.I.T.S
 
