@@ -16,7 +16,7 @@ así que pendientes .
 
 Desarrollador del Script 
       
- MRX-HACKS
+- MRX-HACKS
 
 *****
 
