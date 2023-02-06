@@ -32,12 +32,13 @@ echo ""
 echo -e "$blue(python) ................................................... Instalado [✓]"
 else
 sleep 1
-echo -e "(figlet) No instalado [✗]"
+echo -e "(python) No instalado [✗]"
 sleep 1
 echo -e "\e[1;32mInstalando python ...\e[0m"
 sleep 3
 pkg install python -y
 fi
+clear
 
 setterm -foreground blue
 figlet Script-B
