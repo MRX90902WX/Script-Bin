@@ -72,7 +72,7 @@ exit
 ;;
 3)
 #! /bin/bash
-python namsonG.py
+python namsoG.py
 exit
 ;;
 esac 
