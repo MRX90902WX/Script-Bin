@@ -28,5 +28,5 @@ Créditos
 
 - Scorpio28-Oficial
 
-- G.I.T.S
+- G.I.T.S.
 
