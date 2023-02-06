@@ -58,7 +58,7 @@ echo -e "\e[1;37m[\e[0m\e[1;31m1\e[0m\e[1;37m]\e[0m\e[1;32mGenerateBIN\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m2\e[0m\e[1;37m]\e[0m\e[1;32mDragon-X\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]\e[0m\e[1;32mNamsoG\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m00\e[0m\e[1;37m]\e[0m\e[1;32mSalir\e[0m"
-echo -e -n "\e[1;31m[+]Opcion >> \e[0m"
+echo -e -n "\e[1;36m[+]Opcion >> \e[0m"
 read opcion
 case $opcion in
 1)
