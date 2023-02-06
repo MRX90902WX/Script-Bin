@@ -16,12 +16,15 @@ así que pendientes .
 
 Desarrollador del Script 
       
-MRX-HACKS
+ MRX-HACKS
 
 *****
 
 Créditos
 
-sRBill96
+- sRBill96
 
-Scorpio28-Oficial
+- Scorpio28-Oficial
+
+- GHOST
+
