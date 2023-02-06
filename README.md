@@ -15,11 +15,13 @@ así que pendientes .
 *****
 
 Desarrollador del Script 
-        MRX-HACKS
+      
+MRX-HACKS
 
 *****
 
 Créditos
 
 sRBill96
+
 Scorpio28-Oficial
