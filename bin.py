@@ -187,7 +187,7 @@ print("Ponen el número de la tarjeta más mm/aa ,cvv")
 print("Elijen el país Estados Unidos, codigo postal 10080")
 print("\n\033[1;31m~\033[1;34mHa usado la Script correctamente")
 system("sleep 1")
-print("\033[1;31m~\033[1;34mGracias por !! \033[1;33mUtilizarla ;)")
+print("\033[1;31m~\033[1;34mGracias !! por \033[1;33mUtilizarla ;)")
 #num = Generar_tarjeta(bin_muestra,1)
 #print()
 #obtener diccionario
