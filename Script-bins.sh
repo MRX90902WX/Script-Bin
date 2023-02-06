@@ -47,7 +47,7 @@ echo ""
 echo "***"
 echo -e "\e[1;33mGenerateBIN\e[0m \e[1;32m= Esta Script de bin sirve para comprar Youtube Premiun\e[0m"
 echo -e "\e[1;33mDragon-X\e[0m \e[1;32m= Esta Script generara bins para usar en diferentes streaming\e[0m"
-echo -e "\e[1;33mNamsonG\e[0m \e[1;32m= Esta Script funciona igual que la pagina namsonGen\e[0m"
+echo -e "\e[1;33mNamsoG\e[0m \e[1;32m= Esta Script funciona igual que la pagina namsoGen\e[0m"
 echo ""
 while :
 do
@@ -56,7 +56,7 @@ echo "#SELECCIONE UNA HERRAMIENTA DE BIN"
 echo ""
 echo -e "\e[1;37m[\e[0m\e[1;31m1\e[0m\e[1;37m]\e[0m\e[1;32mGenerateBIN\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m2\e[0m\e[1;37m]\e[0m\e[1;32mDragon-X\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]\e[0m\e[1;32mNamsonG\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]\e[0m\e[1;32mNamsoG\e[0m"
 echo -e -n "\e[1;31m[+]Opcion >> \e[0m"
 read opcion
 case $opcion in
