@@ -5,6 +5,8 @@ Hola 👋 , hoy les traigo esta script que lo que hace es ejecutar un menu en do
 
 Clonar este repositorio con git clone
 
+cd Script-Bin
+
 Ejecutar bash Script-bins.sh
 
 Escojen una opción y listo ✔ 
