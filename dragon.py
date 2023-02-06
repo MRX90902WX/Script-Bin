@@ -182,7 +182,6 @@ def dategen():
 def main(argv):
     bin_list = []
     #get arg data
-    print(" TARGET         CVV  MM/AA")
     (bin_format, saveopt, limit, ccv, date) = parseOptions(argv)
     if bin_format is not "":
         for i in range(int(limit)):
