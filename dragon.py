@@ -10,7 +10,7 @@ from random import randint
 
 #Mensaje
 os.system ("clear")
-print("\033[1;32m+\033[1;36m BIN GENERATOR")
+print("\033[1;32m+\033[1;36m DRAGON-X")
 time.sleep(1.2)
 #Informacion de ayuda
 def dexter1999():
@@ -31,7 +31,7 @@ def dexter1999():
 dexter1999()
 time.sleep(1.2)
 print("")
-print("\033[1;32m Termux Hacking")
+print("\033[1;32m GENERADOR DE BIN ")
 time.sleep(1.6)
 print("")
 time.sleep(2.2)
