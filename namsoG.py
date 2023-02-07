@@ -21,20 +21,23 @@ cantidad = input("[+]Ingrese la cantidad a generar: ")
 print("")
 print(" TARGET         CVV  MM/AA")
 
-def esValido(num_tarjeta):
-  suma = 0
-  num_digitos = len(num_tarjeta)
-  pos_par_impar = num_digitos & 1
-
-  for i in range(0, num_digitos):
-    digito = int(num_tarjeta[i])
-    if not ((i & 1) ^ pos_par_impar):
-      digito = digito * 2
-    if digito > 9:
-      digito = digito - 9
-    suma = suma + digito
+def esValido(card_number):
   
-  return (suma % 10 == 0)
+   sum = 0
+    num_digits = len(card_number)
+    oddeven = num_digits & 1
+
+    for count in range(0, num_digits):
+        digit = int(card_number[count])
+
+        if not (( count & 1 ) ^ oddeven ):
+            digit = digit * 2
+        if digit > 9:
+            digit = digit - 9
+
+        sum = sum + digit
+
+    return ( (sum % 10) == 0 )
 
 def generar_cc(bin_format):
   cc = ""
