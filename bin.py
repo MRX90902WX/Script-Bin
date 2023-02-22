@@ -163,7 +163,7 @@ print("---------------------------------------")
 print("|               ,,,,,,,               |")
 print("|                *BINS                |")
 print("|               ```````               |")
-print("| 4240940116329193   4240940578xxxxxx |")
+print("| 424094011632xxxx   4240940578xxxxxx |")
 print("| 424094000830xxxx   424094002574xxxx |")
 print("| 4240940340xxxxxx   489504252230xxxx |")
 print("|_____________________________________|")
@@ -196,7 +196,6 @@ print("\033[1;31m~\033[1;34mGracias !! por \033[1;33mUtilizarla ;)")
 #obtener lista
 #lista = num.lista_tarjetas
 print("")
-system("bash main.sh")
 
 
 
