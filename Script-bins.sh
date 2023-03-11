@@ -61,7 +61,7 @@ echo -e "⠀⠀⠀⠀⠀⠀                    \e[1;31m⠸⣿⣿⣿⠇⠸⣿⣿�
 echo -e "\e[1;34m***\e[0m"
 echo -e "\e[1;33mGenerateBIN\e[0m \e[1;32m= Esta Script de bin sirve para comprar Youtube Premiun\e[0m"
 echo -e "\e[1;33mDragon-X\e[0m \e[1;32m= Esta Script generara bins al azar para pasar prueba 1mes\e[0m"
-echo -e "\e[1;33mNamsoG\e[0m \e[1;32m= Esta Script funciona igual que la pagina NamsoGen\e[0m"
+echo -e "\e[1;33mBIN\e[0m \e[1;32m= Esta Script da generadas aveces salen live prueben\e[0m"
 echo ""
 while :
 do
@@ -70,7 +70,7 @@ echo "#SELECCIONE UNA HERRAMIENTA DE BIN"
 echo ""
 echo -e "\e[1;37m[\e[0m\e[1;31m1\e[0m\e[1;37m]\e[0m\e[1;32mGenerateBIN\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m2\e[0m\e[1;37m]\e[0m\e[1;32mDragon-X\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]\e[0m\e[1;32mNamsoG\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]\e[0m\e[1;32mBIN\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m00\e[0m\e[1;37m]\e[0m\e[1;32mSalir\e[0m"
 echo -e -n "\e[1;37m[+]Opcion >> \e[0m"
 read opcion
@@ -87,7 +87,7 @@ exit
 ;;
 3)
 #! /bin/bash
-python namsoG.py
+python binfecha.py
 exit
 ;;
 00)
