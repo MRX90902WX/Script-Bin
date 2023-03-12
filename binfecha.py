@@ -4,6 +4,7 @@ from os import system
 import datetime                              
 import random
 
+print("")
 print("\033[1;33m ____ ___ _   _")
 print("\033[1;33m| __ )_ _| \ | |")
 print("\033[1;34m|  _ \| ||  \| |")
