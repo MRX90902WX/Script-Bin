@@ -82,3 +82,13 @@ main()
 
 print("")
 
+print(" \033[1;33mDesea volver al menu \033[1;37msi/no")     
+volver = input(" \033[1;37m>>> ")
+
+if volver == "si":
+         system("bash Script-bins.sh")
+else:
+         print("")
+         print(" \033[1;37m[+]\033[1;32mGracias por usar esta herramienta ,BYE")
+         system("sleep 1")
+         exit()
